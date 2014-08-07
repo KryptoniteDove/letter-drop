@@ -1,0 +1,42 @@
+/* ------------------------------------------------------
+  Letter Drop Stylesheet version 1.0 by Rich Duncan
+    
+    Animation, look and feel can all be configured here
+    without editting the javascript loader. 
+------------------------------------------------------ */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+
+.letterDrop {
+  position: relative;
+  top: 0.60em;  
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: 400;
+  text-transform: uppercase; 
+  letter-spacing: 0.5em;
+  opacity: 0.8;
+  transform: rotateX(-90deg);
+  animation: letterDrop 1.2s ease 1 normal forwards;
+}
+
+@keyframes letterDrop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 0.8;
+        top: 3.75em;
+        transform: rotateX(-360deg);
+    }
+    100% {
+        opacity: 1;
+        top: 4.50em;
+        transform: rotateX(360deg);
+    }
+}
+
+
+span:nth-child(2n) {
+  color: #663399;
+}
