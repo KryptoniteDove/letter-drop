@@ -8,11 +8,7 @@
         "keyframes",
         "text effects"
     ],
-<<<<<<< HEAD
     "version": "0.0.4",
-=======
-    "version": "0.0.3",
->>>>>>> FETCH_HEAD
     "author": {
         "name": "Rich Duncan",
         "email": "richduncan@gmail.com",
