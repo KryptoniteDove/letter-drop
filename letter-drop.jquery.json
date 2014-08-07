@@ -1,38 +1,30 @@
 {
     "name": "Letter Drop",
-    "title": "jQuery Letter Drop",
-    "description": "jQuery plugin for text animation effect.",
+    "title": "jQuery text animation plugin",
+    "description": "Animates a rain like effect on your text with letters dropping from above with a 360 rotation and time delay",
     "keywords": [
-        "text",
-        "animation",
-        "rain",
-        "css",
-        "letter",
-        "drop",
-        "delay"
+        "text animation",
+        "css animation",
+        "keyframes",
+        "text effects"
     ],
-    "version": "0.0.2",
+    "version": "0.0.4",
     "author": {
         "name": "Rich Duncan",
+        "email": "richduncan@gmail.com",
         "url": "http://just-rich.io"
     },
-    "maintainers": [
-        {
-            "name": "Rich Duncan"
-        }
-    ],
     "licenses": [
         {
             "type": "MIT",
             "url": "https://github.com/KryptoniteDove/letter-drop/blob/master/LICENSE"
         }
     ],
-    "bugs": "https://github.com/jquery/jquery-color/issues",
+    "bugs": "https://github.com/KryptoniteDove/letter-drop/issues",
     "homepage": "http://codepen.io/KryptoniteDove/pen/gipuw",
-    "docs": "https://github.com/KryptoniteDove/letter-drop",
-    "download": "https://github.com/KryptoniteDove/letter-drop",
+    "docs": "https://github.com/KryptoniteDove/letter-drop/",
+    "download": "https://github.com/KryptoniteDove/letter-drop/archive/master.zip",
     "dependencies": {
-        "jquery": ">=2.x",
-        "letter-drop CSS": "*"
+        "jquery": ">=2.x"
     }
 }
