@@ -1,7 +1,7 @@
 {
     "name": "letter-drop",
     "title": "Letter Drop the text animation plugin",
-    "description": "Animates a rain like effect on your text with letters dropping from above with a 360 rotation and time delay",
+    "description": "Animates a rain like effect on your text with letters dropping from above with a 360 rotation and time delay. Added in version 0.0.8 chainability with built in jQuery functions, enclosure to prevent any potential conflict with other JS code or plugins and bug fixes for multiple element usage.",
     "keywords": [
         "text",
         "css",
@@ -9,7 +9,7 @@
         "keyframes",
         "effects"
     ],
-    "version": "0.0.7",
+    "version": "0.0.8",
     "author": {
         "name": "Rich Duncan",
         "email": "richduncan@gmail.com",

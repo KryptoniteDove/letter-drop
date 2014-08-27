@@ -1,7 +1,12 @@
 // Letter Drop version 1.0 by Rich Duncan - //just-rich.io
 
-jQuery.fn.letterDrop = function() {
-  var obj = this;
+;(function($) {
+
+ $.fn.letterDrop = function() {
+  // Chainability
+  return this.each( function() { 
+  
+  var obj = $( this );
   
   var drop = {
     arr : obj.text().split( '' ),
@@ -48,7 +53,10 @@ jQuery.fn.letterDrop = function() {
   // Create styles
   drop.styles();
 
-  // Initiate
-  drop.main();
-   
-};
+    // Initialise
+    drop.main();
+  });
+
+ };
+
+}(jQuery));
